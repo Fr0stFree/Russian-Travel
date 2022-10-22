@@ -1,5 +1,10 @@
 .lead__image {
-  display: block;
   width: 100%;
-  margin-top: 64px;
+  margin-top: 54px;
+}
+
+@media only screen and (max-width: 480px) {
+  .lead__subtitle {
+    margin-top: 40px;
+  }
 }

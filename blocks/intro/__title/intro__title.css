@@ -5,3 +5,10 @@
   line-height: 58px;
   text-align: left;
 }
+
+@media only screen and (max-width: 768px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
