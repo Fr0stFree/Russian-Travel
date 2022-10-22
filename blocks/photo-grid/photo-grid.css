@@ -1,12 +1,20 @@
 .photo-grid {
-  margin: 92px min(48px, 3%) 0;
+  margin: 92px 48px 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  grid-gap: 16px;  
+  grid-template-columns: repeat(auto-fill, minmax(max(23%, 284px), 1fr));
+  grid-gap: 16px;
 }
 
-@media only screen and (max-width: 768px) {
-  .intro {
-    margin-top: 64px;
+@media only screen and (max-width: 800px) {
+  .photo-grid {
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .photo-grid {
+    margin-right: 16px;
+    margin-left: 16px;
   }
 }

@@ -1,7 +1,22 @@
 .header {
   display: flex;
-  flex-direction: row-reverse;
-  column-gap: 18px;
-  margin-right: 48px;
-  padding-top: 46px;
+  flex-direction: row;
+  padding: 0 48px 0;
+  column-gap: 16px;
+  padding-top: 29px;
+  background-color: #2A2C2F;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .header {
+    padding: 29px 24px 0;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .header {
+    padding: 16px 16px 0;
+  }
 }

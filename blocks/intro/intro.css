@@ -1,11 +1,16 @@
 .intro {
-  margin: 92px auto 0 max(3%, calc((100% - 984px) / 2));
+  margin: 92px auto 0 148px;
   max-width: 690px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1050px) {
   .intro {
-    margin-top: 64px;
-    margin-right: 3%;
+    margin-left: 48px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .intro {
+    margin-left: 24px;
   }
 }

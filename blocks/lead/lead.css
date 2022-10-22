@@ -1,10 +1,18 @@
 .lead {
-  margin: 62px auto 0;
-  width: min(100%, 984px);
+  padding-top: 62px;
+  margin: 0 148px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1050px) {
   .lead {
-    margin-top: 40px;
+    padding-top: 54px;
+    margin: 0 48px
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .lead {
+    padding-top: 47px;
+    margin: 0 auto;
   }
 }

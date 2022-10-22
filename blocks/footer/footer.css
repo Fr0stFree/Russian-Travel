@@ -1,14 +1,22 @@
 .footer {
-  margin: 92px 48px 0;
-  padding-bottom: 24px;
+  padding: 92px 48px 24px;
   display: flex;
-  column-gap: 18px;
+  column-gap: 19px;
+  background-color: #2A2C2F;
+  font-family: 'Inter', sans-serif;
+  color: white;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
+  .footer {
+    padding: 88px 24px 24px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
   .footer {
     flex-direction: column;
     row-gap: 32px;
-    margin: 64px 3% 0;
+    padding-top: 64px;
   }
 }

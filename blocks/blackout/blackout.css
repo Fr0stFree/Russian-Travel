@@ -1,0 +1,9 @@
+.blackout:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0.3;
+}
+
+.blackout {
+  opacity: 0.8;
+  transition: opacity 0.5s ease-in-out;
+}

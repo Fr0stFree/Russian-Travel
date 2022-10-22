@@ -2,9 +2,9 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 550px) {
   .place__image {
-    width: 108%;
-    margin-left: -4%;
+    width: calc(100% + 32px);
+    margin-left: -16px;
   }
 }
