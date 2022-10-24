@@ -21,8 +21,9 @@
 }
 
 @media only screen and (max-width: 550px) {
-  .place { 
-    grid-template-columns: 320px;
+  .place {
+    display: flex;
+    flex-direction: column;
     row-gap: 32px;
   }
 }
