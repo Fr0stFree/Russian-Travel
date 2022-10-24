@@ -6,9 +6,11 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
+  position: relative;
+  z-index: 2;  
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 550px) {
   .cover__title {
     max-width: 288px;
     font-size: 32px;

@@ -1,0 +1,14 @@
+.footer__link-group {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  column-gap: 19px;
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 550px) {
+  .footer__link-group {
+    flex-direction: column;
+    row-gap: 32px;
+  }
+}

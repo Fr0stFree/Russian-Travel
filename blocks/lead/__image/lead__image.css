@@ -1,16 +1,24 @@
 .lead__image {
-  width: 100%;
-  margin-top: 64px;
+  width: 76.7%;
+  margin: 64px auto 0;
+  display: block;
 }
 
 @media only screen and (max-width: 1050px) {
   .lead__image {
     margin-top: 56px;
+    width: 90.5%;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .lead__image {
-    margin-top: 56px;
+    width: 100%
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .lead__image {
+    margin-top: 40px;
   }
 }
