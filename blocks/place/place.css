@@ -20,6 +20,12 @@
   }
 }
 
+@media only screen and (max-width: 650px) {
+  .place { 
+    grid-template-columns: 250px auto;
+  }
+}
+
 @media only screen and (max-width: 550px) {
   .place {
     display: flex;

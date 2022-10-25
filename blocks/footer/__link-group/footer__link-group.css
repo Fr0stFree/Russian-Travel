@@ -6,7 +6,7 @@
   list-style-type: none;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 630px) {
   .footer__link-group {
     flex-direction: column;
     row-gap: 32px;
